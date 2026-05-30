@@ -4,7 +4,7 @@ Application web intelligente pour la détection du cancer de la peau à partir d
 
 ---
 
-# Présentation du projet
+## Présentation du projet
 
 Ce projet a été développé dans le but de créer une plateforme médicale intelligente permettant la détection du cancer de la peau à partir d’images dermatologiques.
 
@@ -18,7 +18,7 @@ L’application permet :
 
 ---
 
-# Contenu du dépôt
+## Contenu du dépôt
 
 | Dossier / Fichier | Description                                     |
 | ----------------- | ----------------------------------------------- |
@@ -37,9 +37,9 @@ L’application permet :
 
 ---
 
-# Fonctionnalités principales
+## Fonctionnalités principales
 
-## Interface Patient
+### Interface Patient
 
 * Création de compte
 * Connexion sécurisée
@@ -47,14 +47,14 @@ L’application permet :
 * Questionnaire médical
 * Consultation des résultats IA
 
-## Interface Médecin
+### Interface Médecin
 
 * Gestion des patients
 * Consultation des dossiers médicaux
 * Accès aux résultats des analyses IA
 * Suivi des patients
 
-## Intelligence Artificielle
+### Intelligence Artificielle
 
 * Analyse des images dermatologiques
 * Détection du cancer de la peau
@@ -63,7 +63,7 @@ L’application permet :
 
 ---
 
-# Technologies utilisées
+## Technologies utilisées
 
 * PHP
 * HTML
@@ -77,17 +77,17 @@ L’application permet :
 
 ---
 
-# Base de données
+## Base de données
 
 La base de données utilisée dans le projet est disponible ici :
 
 * [Télécharger la base de données](data.sql)
 
-## Importation de la base de données
+### Importation de la base de données
 
-1. Ouvrir PostgreSQL / pgAdmin
-2. Créer une nouvelle base de données
-3. Importer le fichier `data.sql`
+1. Ouvrir PostgreSQL / pgAdmin.
+2. Créer une nouvelle base de données.
+3. Importer le fichier `data.sql`.
 4. Configurer les informations de connexion dans :
 
 ```text
@@ -96,7 +96,7 @@ config/connexion.php
 
 ---
 
-# Modèle d’Intelligence Artificielle
+## Modèle d’Intelligence Artificielle
 
 Le modèle IA utilisé pour la prédiction se trouve dans :
 
@@ -112,7 +112,7 @@ Le système IA est intégré avec l’application PHP afin d’automatiser les r
 
 ---
 
-# Démonstration vidéo
+## Démonstration vidéo
 
 Le dépôt contient une vidéo de démonstration montrant :
 
@@ -130,11 +130,11 @@ Le dépôt contient une vidéo de démonstration montrant :
 
 * l’interface Médecin.
 
-* [Voir la vidéo de démonstration](demo/video_acceleree_1_5x_182501.mp4)
+* [Voir la vidéo de démonstration](demo/demo_video.mp4)
 
 ---
 
-# Captures d’écran
+## Captures d’écran
 
 Les captures d’écran du projet sont disponibles ici :
 
@@ -151,15 +151,15 @@ Quelques interfaces principales :
 
 ---
 
-# Installation du projet
+## Installation du projet
 
-## 1. Cloner le dépôt GitHub
+### 1. Cloner le dépôt GitHub
 
 ```bash
 git clone https://github.com/eyahamdi-afk/SKIN_CANCER_AI.git
 ```
 
-## 2. Placer le projet dans WAMP
+### 2. Placer le projet dans WAMP
 
 Déplacer le dossier dans :
 
@@ -167,14 +167,14 @@ Déplacer le dossier dans :
 wamp64/www/
 ```
 
-## 3. Lancer WAMP Server
+### 3. Lancer WAMP Server
 
 Activer :
 
 * Apache
 * PostgreSQL
 
-## 4. Importer la base de données
+### 4. Importer la base de données
 
 Importer le fichier :
 
@@ -182,7 +182,7 @@ Importer le fichier :
 data.sql
 ```
 
-## 5. Ouvrir le projet dans le navigateur
+### 5. Ouvrir le projet dans le navigateur
 
 ```text
 http://localhost/SKIN_CANCER_AI/
@@ -190,8 +190,8 @@ http://localhost/SKIN_CANCER_AI/
 
 ---
 
-# Auteur
+## Auteur
 
-Projet réalisé par **Eya Hamdi**
+Projet réalisé par **Eya Hamdi**.
 
 Étudiante à l’ENSTAB spécialisée en technologie avancée.
